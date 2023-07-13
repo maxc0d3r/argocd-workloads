@@ -1,0 +1,15 @@
+apiVersion: v2
+appVersion: v1.0.0
+dependencies:
+- alias: memcached
+  name: mcrouter
+  repository: https://evryfs.github.io/helm-charts
+  version: 0.4.0
+- alias: postgresql
+  name: postgresql
+  repository: https://charts.bitnami.com/bitnami
+  version: 12.6.4
+description: A Helm chart for shared-services in use by islandora
+name: islandora-shared-services
+type: application
+version: 1.0.0

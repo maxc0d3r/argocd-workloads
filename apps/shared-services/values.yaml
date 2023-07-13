@@ -1,0 +1,9 @@
+global:
+  postgresql:
+    auth:
+      postgresPassword: "admin2k12!!"
+      username: "admin"
+      password: "password123!!"
+  mcrouter:
+    statefulset:
+      replicas: 2
