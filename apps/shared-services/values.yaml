@@ -4,6 +4,7 @@ global:
       postgresPassword: "admin2k12!!"
       username: "admin"
       password: "password123!!"
+    enabled: false
   mcrouter:
     statefulset:
       replicas: 2
