@@ -14,7 +14,7 @@ spec:
     metadata:
       name: '{{path[2]}}'
     spec:
-      project: "FDR"
+      project: "fdr"
       source:
         repoURL: https://github.com/maxc0d3r/argocd-workloads.git
         targetRevision: HEAD
