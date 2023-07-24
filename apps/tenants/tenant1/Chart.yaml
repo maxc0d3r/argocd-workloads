@@ -12,29 +12,29 @@ dependencies:
   condition: postgresql.enabled
 - alias: activemq
   name: activemq
-  repository: https://maxc0d3r.github.io/charts
+  repository: https://maxc0d3r.github.io/helm-charts
   version: 0.1.0
   condition: activemq.enabled
 - alias: aurora-serverless
   name: aurora-serverless
-  repository: https://maxcod3r.github.io/charts
+  repository: https://maxcod3r.github.io/helm-charts
   version: 0.1.1
   condition: aurora-serverless.enabled
 - alias: alpaca
   name: alpaca
-  repository: https://maxc0d3r.github.io/charts
+  repository: https://maxc0d3r.github.io/helm-charts
   version: 0.1.
 - alias: cantaloupe
   name: cantaloupe
-  repository: https://maxc0d3r.github.io/charts
+  repository: https://maxc0d3r.github.io/helm-charts
   version: 0.1.0
 - alias: crayfish
   name: crayfish
-  repository: https://maxc0d3r.github.io/charts
+  repository: https://maxc0d3r.github.io/helm-charts
   version: 0.1.0
 - alias: solr
   name: solr
-  repository: https://maxc0d3r.github.io/charts
+  repository: https://maxc0d3r.github.io/helm-charts
   version: 0.1.0
   
 description: A Helm chart to setup islandora
