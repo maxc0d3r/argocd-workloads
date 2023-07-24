@@ -23,7 +23,7 @@ dependencies:
 - alias: alpaca
   name: alpaca
   repository: https://maxc0d3r.github.io/helm-charts
-  version: 0.1.0
+  version: 0.1.1
 - alias: cantaloupe
   name: cantaloupe
   repository: https://maxc0d3r.github.io/helm-charts
