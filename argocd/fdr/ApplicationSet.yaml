@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
-  name: shared-services
+  name: fdr
   namespace: argocd
 spec:
   generators:
@@ -9,19 +9,19 @@ spec:
       repoURL: https://github.com/maxc0d3r/argocd-workloads.git
       revision: HEAD
       directories:
-      - path: apps/shared-services
+      - path: apps/tenants/*
   template:
     metadata:
-      name: '{{path[1]}}'
+      name: '{{path[2]}}'
     spec:
-      project: "shared-services"
+      project: "FDR"
       source:
         repoURL: https://github.com/maxc0d3r/argocd-workloads.git
         targetRevision: HEAD
         path: '{{path}}'
       destination:
         server: https://kubernetes.default.svc
-        namespace: '{{path[1]}}'
+        namespace: '{{path[2]}}'
       syncPolicy:
         automated:
           prune: true
