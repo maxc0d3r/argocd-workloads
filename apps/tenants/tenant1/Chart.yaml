@@ -13,7 +13,7 @@ dependencies:
 - alias: activemq
   name: activemq
   repository: https://maxc0d3r.github.io/helm-charts
-  version: 0.1.2
+  version: 0.1.3
   condition: activemq.enabled
 - alias: aurora-serverless
   name: aurora-serverless
