@@ -11,5 +11,8 @@ global:
 
   mcrouter:
     statefulset:
-      replicas: 2
+      replicas: 1
+
+  drupal:
+    replicas: 2
 
