@@ -22,7 +22,7 @@ dependencies:
 - alias: cantaloupe
   name: cantaloupe
   repository: https://maxc0d3r.github.io/helm-charts
-  version: 0.1.1
+  version: 0.1.2
 - alias: crayfish
   name: crayfish
   repository: https://maxc0d3r.github.io/helm-charts

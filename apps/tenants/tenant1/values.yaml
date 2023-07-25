@@ -6,20 +6,6 @@ global:
       username: "admin"
       password: "password123!!"
 
-  aurora-serverless:
-    enabled: false
-    clusterName: "tenant1"
-    vpc:
-      vpcID: "vpc-XXXX"
-    aurora:
-      minACU: 3
-      maxACU: 6
-      engine: "aurora-postgresql"
-      engineVersion: "13"
-      masterUsername: "adminer"
-      masterUserPassword: "password"
-      dbInstanceClass: "db.serverless"
-  
   activemq:
     enabled: true
 
