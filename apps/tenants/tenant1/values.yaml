@@ -1,19 +1,19 @@
-global:
-  postgresql:
-    enabled: true
-    auth:
-      postgresPassword: "admin2k12!!"
-      username: "admin"
-      password: "password123!!"
-    fullnameOverride: "postgres"
+postgresql:
+  enabled: true
+  auth:
+    postgresPassword: "admin2k12!!"
+    username: "admin"
+    password: "password123!!"
+  fullnameOverride: "postgres"
+  nameOverride: "postgres"
 
-  activemq:
-    enabled: true
+activemq:
+  enabled: true
 
-  mcrouter:
-    statefulset:
-      replicas: 1
+mcrouter:
+  statefulset:
+    replicas: 1
 
-  drupal:
-    replicas: 2
+drupal:
+  replicas: 1
 
