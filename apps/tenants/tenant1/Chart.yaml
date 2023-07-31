@@ -35,6 +35,10 @@ dependencies:
   name: drupal
   repository: https://maxc0d3r.github.io/helm-charts
   version: 0.1.22
+- alias: clamav
+  name: clamav
+  repository: https://maxc0d3r.github.io/helm-charts
+  version: 0.1.0
   
 description: A Helm chart to setup islandora
 name: islandora
