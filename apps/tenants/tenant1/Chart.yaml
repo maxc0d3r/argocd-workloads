@@ -34,7 +34,7 @@ dependencies:
 - alias: drupal
   name: drupal
   repository: https://maxc0d3r.github.io/helm-charts
-  version: 0.1.17
+  version: 0.1.18
   
 description: A Helm chart to setup islandora
 name: islandora
