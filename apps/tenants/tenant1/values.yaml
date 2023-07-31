@@ -16,5 +16,5 @@ mcrouter:
     replicas: 1
 
 drupal:
-  replicas: 2
+  replicaCount: 2
 
