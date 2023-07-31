@@ -11,6 +11,7 @@ activemq:
   enabled: true
 
 mcrouter:
+  controller: "statefulset"
   statefulset:
     replicas: 1
 
