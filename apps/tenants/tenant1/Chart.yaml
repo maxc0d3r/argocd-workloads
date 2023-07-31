@@ -13,7 +13,7 @@ dependencies:
 - alias: activemq
   name: activemq
   repository: https://maxc0d3r.github.io/helm-charts
-  version: 0.1.7
+  version: 0.1.8
   condition: activemq.enabled
 - alias: alpaca
   name: alpaca
