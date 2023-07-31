@@ -13,7 +13,7 @@ dependencies:
 - alias: activemq
   name: activemq
   repository: https://maxc0d3r.github.io/helm-charts
-  version: 0.1.6
+  version: 0.1.7
   condition: activemq.enabled
 - alias: alpaca
   name: alpaca
@@ -43,4 +43,4 @@ dependencies:
 description: A Helm chart to setup islandora
 name: islandora
 type: application
-version: 1.0.1
+version: 1.0.2
