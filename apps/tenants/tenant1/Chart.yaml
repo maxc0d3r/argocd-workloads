@@ -13,32 +13,32 @@ dependencies:
 - alias: activemq
   name: activemq
   repository: https://maxc0d3r.github.io/helm-charts
-  version: 0.1.9
+  version: 0.1.10
   condition: activemq.enabled
 - alias: alpaca
   name: alpaca
   repository: https://maxc0d3r.github.io/helm-charts
-  version: 0.1.3
+  version: 0.1.4
 - alias: cantaloupe
   name: cantaloupe
   repository: https://maxc0d3r.github.io/helm-charts
-  version: 0.1.4
+  version: 0.1.5
 - alias: crayfish
   name: crayfish
   repository: https://maxc0d3r.github.io/helm-charts
-  version: 0.1.0
+  version: 0.1.1
 - alias: solr
   name: solr
   repository: https://maxc0d3r.github.io/helm-charts
-  version: 0.1.0
+  version: 0.1.1
 - alias: drupal
   name: drupal
   repository: https://maxc0d3r.github.io/helm-charts
-  version: 0.1.22
+  version: 0.1.23
 - alias: clamav
   name: clamav
   repository: https://maxc0d3r.github.io/helm-charts
-  version: 0.1.0
+  version: 0.1.1
   
 description: A Helm chart to setup islandora
 name: islandora
