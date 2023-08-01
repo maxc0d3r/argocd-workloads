@@ -17,4 +17,6 @@ mcrouter:
 
 drupal:
   replicaCount: 1
+  ingress:
+    host: tenant1.rename.to
 
