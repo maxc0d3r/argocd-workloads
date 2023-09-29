@@ -19,4 +19,5 @@ drupal:
   replicaCount: 2
   ingress:
     host: tenant1.ctrld.dev
-
+    tls:
+      enabled: true
