@@ -16,7 +16,7 @@ mcrouter:
     replicas: 1
 
 drupal:
-  replicaCount: 2
+  replicaCount: 1
   ingress:
     host: tenant1.ctrld.dev
     tls:
